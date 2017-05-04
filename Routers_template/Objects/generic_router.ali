@@ -1,0 +1,327 @@
+V "GNAT Lib v2016"
+A -mmacosx-version-min=10.9
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatw.n
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwt
+A -gnatw.t
+A -gnatwu
+A -gnatw.u
+A -gnatwv
+A -gnatw.v
+A -gnatww
+A -gnatw.w
+A -gnatwx
+A -gnatw.x
+A -gnatwy
+A -gnatwz
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatE
+A -g
+A -gnata
+A -mtune=core2
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_ABORT_STATEMENTS
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_PROTECTED_TYPES
+RV NO_RECURSION
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_TASKING
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV PURE_BARRIERS
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_SELECT_ALTERNATIVES=5
+RV MAX_TASK_ENTRIES=7
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U generic_router%b	generic_router.adb	4f020ad0 DE NE OO PK GE IS
+Z ada%s			ada.ads			ada.ali
+Z ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.doubly_linked_lists%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W exceptions%s		exceptions.adb		exceptions.ali
+W fifo%s		fifo.adb		fifo.ali
+W generic_fifo%s	generic_fifo.adb	generic_fifo.ali
+W system%s		system.ads		system.ali
+
+U generic_router%s	generic_router.ads	7fe64a8b BN DE EE NE OO PK GE IS
+W generic_message_structures%s  generic_message_structures.ads  generic_message_structures.ali
+W generic_router_links%s  generic_router_links.adb  generic_router_links.ali
+W id_dispenser%s	id_dispenser.adb	id_dispenser.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20160516092927 61e5e089 ada.containers%s
+D a-cdlili.ads		20160516092927 8e06b4f2 ada.containers.doubly_linked_lists%s
+D a-cdlili.adb		20160516092929 8ed211ef ada.containers.doubly_linked_lists%b
+D a-conhel.ads		20160516092928 20298884 ada.containers.helpers%s
+D a-conhel.adb		20160516092931 9cc5095b ada.containers.helpers%b
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-iteint.ads		20160516092929 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strbou.ads		20160516092928 53ab54ae ada.strings.bounded%s
+D a-strbou.adb		20160516092930 adb4aa70 ada.strings.bounded%b
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20160516092929 a27dcb33 ada.strings.superbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D exceptions.ads	20110916054948 93f8a807 exceptions%s
+D fifo.ads		20161021234530 21637bc9 fifo%s
+D fifo.adb		20161012230634 59080d0a fifo%b
+D generic_fifo.ads	20161021234514 0763aaca generic_fifo%s
+D generic_fifo.adb	20161014045210 0aeec442 generic_fifo%b
+D generic_message_structures.ads  20161021235200 9f2a07d0 generic_message_structures%s
+D generic_router.ads	20161021235502 62a01b82 generic_router%s
+D generic_router.adb	20161021235448 985a6856 generic_router%b
+D generic_router_links.ads  20110919133220 267d71e6 generic_router_links%s
+D generic_router_links.adb  20110919133220 2cc629d1 generic_router_links%b
+D generic_routers_configuration.ads  20150927164632 5fb99a32 generic_routers_configuration%s
+D id_dispenser.ads	20150927073158 a411273f id_dispenser%s
+D id_dispenser.adb	20150927073158 d484d9fa id_dispenser%b
+D routers_configuration_structures.ads  20161002014854 4685d3a5 routers_configuration_structures%s
+D system.ads		20160516092931 c3282aa7 system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D topologies.ads	20150927163932 35583929 topologies%s
+X 5 a-cdlili.ads
+51R9 List<10|43R9>
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[5|69]>
+X 14 a-strbou.ads
+50R12 Bounded_String<17|47R9>
+X 21 exceptions.ads
+17K10*Exceptions 22e15 28|6w6 6r22
+19U14*Show_Exception 28|223s37
+X 22 fifo.ads
+5k9*Fifo 28e9 28|7w6 22r35
+7R9 Fifo_Type 28|57r35[22]
+8U14 Push 28|63s26[22]
+9U14 Pop 28|68s26[22]
+10V13 Is_Empty{boolean} 28|66s72[22] 73s33[22]
+X 24 generic_fifo.ads
+8k9*Generic_Fifo 24e18 28|8w6 20r34
+10R9 Fifo_Type<5|51R9[20[28|20]]> 28|30r35[20]
+12U14 Push 28|37s25[20]
+13U14 Pop 28|42s25[20]
+14V13 Is_Empty_Or_Not{boolean} 28|40s72[20] 47s32[20]
+X 26 generic_message_structures.ads
+9K17 Routers_Configuration[31|11] 27|16r8[11]
+11k9*Generic_Message_Structures 53e31 27|5w6 11r43
+18R12 The_Core_Message{14|50R12[15[27|11]]}
+20R9 Messages_Client 27|31r44[11] 28|141r30[27|11] 172r50[27|11]
+21i7 Destination{31|15I9[9[27|11]]} 28|146m38[27|11] 173r30[27|11] 182r84[27|11]
+22r7 The_Message{18R12[27|11]} 28|147m38[27|11] 174r82[27|11] 182r120[27|11]
+25R9 Messages_Mailbox 27|32r44[11] 28|100r26[27|11] 175r60[27|11] 202r63[27|11]
+26i7 Sender{31|15I9[9[27|11]]} 28|174m40[27|11] 199m43[27|11]
+27r7 The_Message{18R12[27|11]} 28|174m59[27|11] 200m43[27|11]
+28i7 Hop_Counter{natural} 28|174m95[27|11] 201m43[27|11]
+32R9 Inner_Message 27|36r35[11] 37r42[11] 28|20r48[27|11] 26r36[27|11] 27r36[27|11]
+. 35r36[27|11] 40r36[27|11] 106r30[27|11] 118r32[27|11] 119r32[27|11] 188r48[27|11]
+. 193r55[27|11]
+33i7 Sender{31|15I9[9[27|11]]} 28|108m32[27|11] 126m72[27|11] 127m38[27|11]
+34i7 Source{31|15I9[9[27|11]]} 28|109m32[27|11] 125r76[27|11] 126m47[27|11]
+. 128m38[27|11] 128r68[27|11]
+35i7 Hop_Count{natural} 28|110m32[27|11] 124m33[27|11] 124r63[27|11] 125r36[27|11]
+. 126m97[27|11] 129m38[27|11] 129r68[27|11]
+39R9 Table_Message 28|79r43[27|11]
+41i7 Next_Hop{31|15I9[9[27|11]]} 28|154r81[27|11]
+42i7 Hop_Count{natural} 28|125r84[27|11]
+46R9 Message_Post 27|38r35[11] 28|22r41[27|11] 53r36[27|11] 54r36[27|11]
+. 61r36[27|11] 66r36[27|11] 140r28[27|11] 151r37[27|11] 180r40[27|11] 197r48[27|11]
+47i7 Sender{31|15I9[9[27|11]]} 28|155m45[27|11] 155r73[27|11] 182m42[27|11]
+. 199r66[27|11]
+48i7 Destination{31|15I9[9[27|11]]} 28|145r32[27|11] 146r66[27|11] 154r68[27|11]
+. 156m45[27|11] 156r73[27|11] 182m61[27|11] 198r30[27|11]
+49r7 The_Message{18R12[27|11]} 28|147r66[27|11] 157m45[27|11] 157r73[27|11]
+. 182m97[27|11] 200r66[27|11]
+50i7 Hop_Count{natural} 28|158m45[27|11] 158r73[27|11] 182m133[27|11] 201r66[27|11]
+X 27 generic_router.ads
+11K17 Message_Structures[26|11] 15r8
+13k9*Generic_Router 11z17 42l5 42e19 28|10b14 226l5 226t19
+18K12*Router_Id_Generator[32|9] 19r8
+21T9*Router_Task 22r37
+22P9*Router_Task_P(21T9) 24r67
+24K12*Router_Link[29|12] 25r8
+27T14*Router_Task 27d27 40l8 40e19 28|12b14 224l8 224t19
+27i27 Task_Id{31|15I9[26|9[27|11]]} 28|95r21 95r30 102r74 108r42 109r42 127r51
+. 145r46 173r44 174r50 182r52 198r44
+29Y13 Configure 29>24 28|93b14 96l11 96t20
+29a24 Links{29|20A9[24]} 28|94r31
+31Y13 Send_Message 31>30 28|172b23 186l20 186t32
+31r30 Message{26|20R9[11]} 28|173r22 174r74 182r76 182r112
+32Y13 Receive_Message 32<30 28|175b29 177l26 177t41 202b32 204l29 204t44
+32r30 Message{26|25R9[11]} 28|176m25 203m28
+34Y13 Shutdown 28|211b23 216l20 216t28
+36Y13 Inner_Send 36>25 28|112s36 131s42 188b23 190l20 190t30
+36r25 Message{26|32R9[11]} 28|189r41
+37Y13 Inner_Receive 37<28 28|193b26 195l23 195t36
+37r28 Message{26|32R9[11]} 28|194m44
+38Y13 Outer_Send 38>25 28|159s48 197b23 209l20 209t30
+38r25 Message{26|46R9[11]} 28|198r22 199r58 200r58 201r58 206r45
+X 28 generic_router.adb
+15b7 running{boolean} 169r16 212m19
+17a7 Connected_Routers{29|20A9[27|24]} 94m10 102r83
+20K15 Router_Fifo[24|8] 21r11 30r23 37r13 40r60 42r13 47r20
+22K15 Message_Fifo[22|5] 23r11 57r22 63r13 66r59 68r13 73r20
+25w17 Router_Queue 33b22 50l11 50t23 189r19 192r25 194r22
+26U20 Enqueue 26>29 35b20 38l14 38t21 189s32
+26r29 Item{26|32R9[27|11]} 35b29 37r43
+27Y16 Dequeue 27<25 40b16 43l14 43t21 194s35
+27r25 Item{26|32R9[27|11]} 42m42
+28V19 Is_Empty{boolean} 45b19 48l14 48t22 192s38
+30r10 Inner_Fifo{24|10R9[20]} 37m31 37r31 40r89 42m30 42r30 47r49
+40r25 Item{26|32R9[27|11]}
+52w17 Message_Queue 60b22 76l11 76t24 144r16 183r25 206r22
+53U20 Enqueue 53>29 61b20 64l14 64t21 183s39 206s36
+53r29 Item{26|46R9[27|11]} 61b29 63r43
+54Y16 Dequeue 54<25 66b16 69l14 69t21 144s30
+54r25 Item{26|46R9[27|11]} 68m42
+55V19 Is_Empty{boolean} 71b19 74l14 74t22
+57r10 This_Fifo{22|7R9[22]} 63m32 63r32 66r82 68m31 68r31 73r43
+66r25 Item{26|46R9[27|11]}
+79a7 Hop_Table(26|39R9[27|11]) 88m13 125r48 154r44
+81w17 Table 85b22 90l11 90t16 95r10 126r19
+82U20 Add 82>25 82>53 82>78 86b20 89l14 89t17 95s16 126s25
+82i25 Destination{31|15I9[26|9[27|11]]} 86b25 88r24 88r41
+82i53 Next_Hop{31|15I9[26|9[27|11]]} 86b53 88r54
+82i78 Hop_Count{natural} 86b78 88r64
+93a25 Links{29|20A9[27|24]}
+100r10 Final_Message{26|25R9[27|11]} 174m22 176r36 199m25 203r39
+102a10 Port_List{29|19A9[27|24]} 111r31 130r37 153r40
+104t15 Inner_Sender 105b20 114l14 114t26 215r25
+106r13 Origin_Message{26|32R9[27|11]} 108m13 112r48
+111r17 connection{29|14R9[27|24]} 112r16
+116t15 Inner_Receiver 117b20 136l14 136t28 213r25
+118r13 Incoming_Message{26|32R9[27|11]} 123m31 124m16 124r46 125r19 125r59
+. 126r30 126r55 126r80 128r51 129r51
+119r13 Update_Message{26|32R9[27|11]} 127m19 131r54
+130r23 connection{29|14R9[27|24]} 131r22
+138t15 Outer_Receiver 139b20 166l14 166t28 214r25
+140r13 This_Message{26|46R9[27|11]} 144m39 145r19 146r53 147r53 154r55 155r60
+. 156r60 157r60 158r60
+141r13 Client_Message{26|20R9[27|11]} 146m19 148r33
+151r22 Next_Message{26|46R9[27|11]} 155m28 159r60
+153r26 connection{29|14R9[27|24]} 154r28 159r28
+172r37 Message{26|20R9[27|11]}
+175r46 Message{26|25R9[27|11]}
+180r25 Next_Message{26|46R9[27|11]} 182m25 183r48
+188r35 Message{26|32R9[27|11]}
+193r41 Message{26|32R9[27|11]}
+197r35 Message{26|46R9[27|11]}
+202r49 Message{26|25R9[27|11]}
+223r12 Exception_Id{9|63R9} 223r53
+X 29 generic_router_links.ads
+12k9*Generic_Router_Links 27|6w6 24r31 29|24e25
+14R9 Router_Ports
+15i7 Id{31|15I9[26|9[27|11]]} 28|154r39[27|24]
+16p7 Link{27|22P9} 28|112r27[27|24] 131r33[27|24] 159r39[27|24]
+19A9 Connected_Router_Ports(14R9[27|24])<integer> 28|102r31[27|24]
+20A9 Ids_To_Links(27|22P9)<31|15I9[26|9[27|11]]> 27|29r32[24] 28|17r27[27|24]
+. 93r33[27|24]
+22V13 To_Router_Ports{19A9[27|24]} 28|102s57[27|24]
+X 31 generic_routers_configuration.ads
+15I9 Router_Range<integer> 27|18r64[26|9[27|11]] 24r53[26|9[27|11]] 27r38[26|9[27|11]]
+. 28|79r26[26|9[27|11]] 82r39[26|9[27|11]] 82r64[26|9[27|11]] 86r39[26|9[27|11]]
+. 86r64[26|9[27|11]]
+X 32 id_dispenser.ads
+7E9 Element 27|18r53
+9k9*Id_Dispenser 27|7w6 18r39 32|15e17
+11V13 Draw_Id{31|15I9[26|9[27|11]]} 27|27s54[18]
+

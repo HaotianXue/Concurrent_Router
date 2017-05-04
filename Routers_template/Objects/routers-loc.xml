@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/routers.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/routers.gpr</vfs_project>
+      <vfs_file>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/Sources/Router/fifo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 10" >
+      <vfs_project>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/routers.gpr</vfs_project>
+      <vfs_file>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/Sources/Router/fifo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/routers.gpr</vfs_project>
+      <vfs_file>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/Sources/Router/generic_message_structures.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/routers.gpr</vfs_project>
+      <vfs_file>/Users/xuehaotian/Desktop/courses/comp2310/Ass2-Finalised_Version/Routers_template/Sources/Router/generic_router.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >D:\ANU\comp2310\Assignment2\Finalised_Version\Routers_template\routers.gpr</vfs_file>
+    <file_marker column=" 67" line=" 45">
+      <vfs_project >D:\ANU\comp2310\Assignment2\Finalised_Version\Routers_template\routers.gpr</vfs_project>
+      <vfs_file >D:\ANU\comp2310\Assignment2\Finalised_Version\Routers_template\Sources\Router\generic_message_structures.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 38" line=" 183">
+      <vfs_project >D:\ANU\comp2310\Assignment2\Finalised_Version\Routers_template\routers.gpr</vfs_project>
+      <vfs_file >D:\ANU\comp2310\Assignment2\Finalised_Version\Routers_template\Sources\Router\generic_router.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

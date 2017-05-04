@@ -1,0 +1,158 @@
+V "GNAT Lib v2016"
+A -mmacosx-version-min=10.9
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatw.n
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwt
+A -gnatw.t
+A -gnatwu
+A -gnatw.u
+A -gnatwv
+A -gnatw.v
+A -gnatww
+A -gnatw.w
+A -gnatwx
+A -gnatw.x
+A -gnatwy
+A -gnatwz
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatE
+A -g
+A -gnata
+A -mtune=core2
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U generic_fifo%b	generic_fifo.adb	0d8d6e88 DE NE OO PK GE
+
+U generic_fifo%s	generic_fifo.ads	89651e38 BN DE EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.doubly_linked_lists%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-contai.ads		20160516092927 61e5e089 ada.containers%s
+D a-cdlili.ads		20160516092927 8e06b4f2 ada.containers.doubly_linked_lists%s
+D a-cdlili.adb		20160516092929 8ed211ef ada.containers.doubly_linked_lists%b
+D a-conhel.ads		20160516092928 20298884 ada.containers.helpers%s
+D a-conhel.adb		20160516092931 9cc5095b ada.containers.helpers%b
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-iteint.ads		20160516092929 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D generic_fifo.ads	20161021234514 0763aaca generic_fifo%s
+D generic_fifo.adb	20161014045210 0aeec442 generic_fifo%b
+D system.ads		20160516092931 c3282aa7 system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+X 1 ada.ads
+16K9*Ada 19e8 14|3r6 20r28
+X 2 a-contai.ads
+16K13*Containers 24e19 14|3r10 20r32
+X 3 a-cdlili.ads
+46k24*Doubly_Linked_Lists 406e39 14|3w21 20r43
+51R9 List<8|43R9> 14|22r26[20]
+76V13 Is_Empty{boolean} 15|18s11[14|20] 31s14[14|20]
+143U14 Prepend 15|9s17[14|20]
+162U14 Delete_Last 15|22s17[14|20]
+204V13 Last_Element{14|6+9} 15|21s25[14|20]
+X 9 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[3|69]>
+X 14 generic_fifo.ads
+6+9 Element_Type 12r58 13r58 20r63 15|7r60 16r60
+8k9*Generic_Fifo 6z9 20E12 24l6 24e18 15|1b14 34l5 34t17
+10R9*Fifo_Type<3|51R9[20]> 8|46P14 14|12p14 12r37 13p14 13r36 14p13 14r37
+. 22c9 22e47 15|7r39 16r38 29r37
+12U14*Push 12=19 12>48 15|7b15 10l9 10t13
+12r19 The_Fifo{10R9} 15|7b21 9m8 9r8
+12*48 Item{6+9} 15|7b50 9r25
+13U14*Pop 13=18 13<47 15|16b15 23l8 23t11
+13r18 The_Fifo{10R9} 15|16b20 18r20 21r16 22m8 22r8
+13*47 Item{6+9} 15|16b49 21m8
+14V13*Is_Empty_Or_Not{boolean} 14>30 15|29b13 32l8 32t23
+14r30 List{10R9} 15|29b30 31r24
+16X4*Empty_Error 15|19r17
+20K12 List_Pkg[3|46] 21r8
+
